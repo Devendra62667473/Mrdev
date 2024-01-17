@@ -10,7 +10,7 @@ C = '\033[96;1m'
 N = '\x1b[0m'
 import os
 try:
-	import requests
+	import requestrs
 except ImportError:
 	os.system("pip install requests")
 
